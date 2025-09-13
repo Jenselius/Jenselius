@@ -130,73 +130,73 @@ const translations = {
     
     de: {
         // Hero section
-        'hero.title': 'Zeit Freisetzen. Intelligent Skalieren.',
-        'hero.subtitle': 'Ich bin Giulia, Gründerin von Jenselius Strategy & Ops — Ihre vertrauensvolle Partnerin für Executive Support, People Operations und operative Strategien für ambitionierte Unternehmer in der DACH- und nordischen Region.',
+        'hero.title': 'Zeit freisetzen. Intelligent skalieren.',
+        'hero.subtitle': 'Ich bin Giulia, Gründerin von Jenselius Strategy & Ops – Ihre verlässliche Partnerin für Executive Support, People Operations und operative Strategien für ambitionierte Unternehmerinnen und Unternehmer in der DACH-Region und den nordischen Ländern.',
         
         // Experience section
-        'experience.years': 'Jahre Berufserfahrung',
-        'experience.years_desc': 'Unterstützung von Gründern und Führungsteams',
-        'experience.languages': 'Sprachkompetenz',
-        'experience.languages_desc': 'Englisch, Deutsch & Schwedisch',
-        'experience.regions': 'Märkte',
-        'experience.regions_desc': 'DACH & Nordische Regionen',
+        'experience.years': 'Jahre Erfahrung',
+        'experience.years_desc': 'Begleitung und operative Unterstützung von Gründer:innen und Führungsteams',
+        'experience.languages': 'Sprachen',
+        'experience.languages_desc': 'Verhandlungssicher in Deutsch, Englisch und Schwedisch',
+        'experience.regions': 'Kernmärkte',
+        'experience.regions_desc': 'DACH-Region & Nordische Länder',
         
         // Strengths
-        'strengths.title': 'Wie ich Ihr Unternehmen unterstütze',
-        'strengths.executive': 'Executive Support & strategisches Zeitmanagement',
-        'strengths.workflow': 'Arbeitsablaufoptimierung & Prozessmanagement',
-        'strengths.hiring': 'Rekrutierungskoordination & systematisches Onboarding',
-        'strengths.remote': 'Remote-Team-Kommunikation & Kollaboration',
-        'strengths.hr': 'HR-Systemimplementierung & operative Strategien',
-        'strengths.kpi': 'KPI-Tracking & intelligente Automatisierung',
-        'strengths.ai': 'KI-Integration & Technologieimplementierung',
+        'strengths.title': 'Meine Schwerpunkte',
+        'strengths.executive': 'Executive Support & Zeitmanagement',
+        'strengths.workflow': 'Abläufe & Prozesse optimieren',
+        'strengths.hiring': 'Rekrutierung & Onboarding-Prozesse',
+        'strengths.remote': 'Remote-Team-Kollaboration & Kommunikation',
+        'strengths.hr': 'People Operations & HR-Systeme',
+        'strengths.kpi': 'KPI-Tracking & smarte Automatisierung',
+        'strengths.ai': 'KI-gestützte Tools & Technologieintegration',
         
         // Why work with me
-        'why.title': 'Warum eine Partnerschaft mit mir',
-        'why.trilingual': 'Mehrsprachige & interkulturelle Exzellenz:',
-        'why.trilingual_desc': 'Nahtlose Betreuung internationaler Teams auf Englisch, Deutsch & Schwedisch',
-        'why.fractional': 'Fraktionale Führungsvorteile:',
-        'why.fractional_desc': 'Vertrauensvolle, eingebettete operative Unterstützung — ohne Vollzeit-Overhead',
-        'why.results': 'Nachgewiesene Geschäftsauswirkungen:',
-        'why.results_desc': '30% Reduzierung der Verwaltungszeit, 25% weniger operative Fehler, null Ausfallzeiten bei Umzügen',
-        'why.execution': 'Strategische Umsetzungsexzellenz:',
-        'why.execution_desc': 'Ausgezeichnet durch Diskretion, systematischen Ansatz und zuverlässige Lieferexzellenz',
+        'why.title': 'Warum eine Partnerschaft mit mir?',
+        'why.trilingual': 'Mehrsprachige & interkulturelle Kompetenz',
+        'why.trilingual_desc': 'Nahtlose Zusammenarbeit mit internationalen Teams – auf Englisch, Deutsch & Schwedisch. Sensibel für kulturelle Unterschiede, effizient in globalen Kontexten.',
+        'why.fractional': 'Fraktionale Führung – ohne Overhead',
+        'why.fractional_desc': 'Operative Unterstützung auf Führungsebene – eingebettet und flexibel. Sie profitieren von fundierter Erfahrung in der Zusammenarbeit mit C-Level-Führungskräften – ohne die Kosten einer Vollzeitstelle.',
+        'why.results': 'Nachweisbare Ergebnisse:',
+        'why.results_desc': '–30 % Verwaltungszeit, –25 % operative Fehler, 0 Ausfallzeiten bei Standortwechseln / Restrukturierungen',
+        'why.execution': 'Strategische Umsetzung mit Exzellenz',
+        'why.execution_desc': 'Diskret. Systematisch. Verlässlich. Ich stehe für klare Prozesse, proaktive Kommunikation und exzellente Lieferqualität – selbst in dynamischen Umfeldern.',
         
         // Results section
         'results.title': 'Quantifizierte Geschäftsergebnisse',
-        'results.subtitle': 'Messbare operative Verbesserungen für Gründer und Führungsteams in ganz Europa.',
-        'results.admin_reduction': 'Reduzierung der administrativen Führungslast',
-        'results.admin_desc': 'Durch systematisches Posteingangsmanagement, Kalenderoptimierung und SOP-Implementierung',
-        'results.error_reduction': 'Operative Fehlerreduzierung',
-        'results.error_desc': 'Durch Workflow-Automatisierung und verbesserte interne Übergabeprotokolle',
-        'results.downtime': 'Geschäftskontinuität während Büroumzug',
-        'results.downtime_desc': 'Grenzüberschreitende Bürotransition ohne operative Störungen durchgeführt',
+        'results.subtitle': 'Messbare Effizienzgewinne für Gründer:innen und Führungsteams in ganz Europa.',
+        'results.admin_reduction': 'Reduzierung administrativer Führungslast',
+        'results.admin_desc': 'Erreicht durch systematisches E-Mail-Management, Kalenderstrukturierung und klar definierte SOPs.',
+        'results.error_reduction': 'Reduzierung operativer Fehler',
+        'results.error_desc': 'Dank Workflow-Automatisierung und optimierter Übergabeprozesse zwischen Teams.',
+        'results.downtime': 'Ausfallkosten beim Standortwechsel',
+        'results.downtime_desc': 'Eine grenzüberschreitende Büroumstrukturierung wurde geplant und umgesetzt – ohne Unterbrechung des laufenden Betriebs.',
         'results.additional.title': 'Weitere strategische Erfolge',
-        'results.additional.hires': 'strategische Einstellungen erfolgreich integriert',
-        'results.additional.stakeholders': 'Führungskräfte bei einer hochwirksamen Unternehmensveranstaltung betreut',
-        'results.additional.dashboards': '10 Tage zur Implementierung umfassender KPI-Dashboard-Systeme',
-        'results.case_study.title': 'Kundenerfolgsgeschichten',
+        'results.additional.hires': 'strategische Einstellungen erfolgreich begleitet',
+        'results.additional.stakeholders': 'Teilnehmende bei Executive-Event in Stockholm – Konzeption, Planung & Durchführung',
+        'results.additional.dashboards': 'Tage bis zur Einführung eines KPI-Dashboards',
+        'results.case_study.title': 'Erfolgsgeschichten',
         'results.case_study.nordic': 'Nordische Investmentfirma',
-        'results.case_study.nordic_desc': '4 Geschäftsanalytiker in 8 Wochen rekrutiert, Partneroperationen um 40% optimiert',
-        'results.case_study.payroll': 'Automatisierte Lohnabrechnungssysteme',
-        'results.case_study.payroll_desc': 'Integrierte Zeiterfassungs- und Lohnabrechnungssysteme für schwedische Tochtergesellschaften implementiert',
+        'results.case_study.nordic_desc': 'Ziel: Skalierung eines wachsenden Analyseteams und Effizienzsteigerung im Tagegeschäft\n\nErgebnis:\n4 Geschäftsanalyst:innen erfolgreich rekrutiert – innerhalb von 8 Wochen\nPartner-Operations um 40 % effizienter gestaltet durch strukturierte Prozessoptimierung',
+        'results.case_study.payroll': 'Automatisierte Lohnabrechnung für schwedische Tochtergesellschaften',
+        'results.case_study.payroll_desc': 'Ziel: Effiziente, fehlerfreie Lohnabrechnung über Standorte hinweg\n\nErgebnis:\nIntegration von Zeiterfassung und Payroll-Systemen in die bestehende Infrastruktur\nVollständig automatisierter Abrechnungsprozess – gesetzeskonform und standortspezifisch',
         
         // FAQ section
         'faq.title': 'Häufig gestellte Fragen',
-        'faq.q1': 'Wie unterscheidet sich ein OBM von einer Assistenz der Geschäftsführung?',
-        'faq.a1': 'Eine Assistenz der Geschäftsführung konzentriert sich primär auf Aufgabenausführung (Terminplanung, Korrespondenz, Reisekoordination). Ein Online Business Manager bietet strategische operative Führung — Arbeitsablaufoptimierung, Prozessgestaltung, Koordination komplexer Projekte und Unterstützung der Organisationsentwicklung einschließlich Rekrutierung und HR-Strategie. Ich integriere beide Kompetenzen und liefere praktische operative Unterstützung mit strategischer Einsicht auf höchstem Niveau.',
+        'faq.q1': 'Wie unterscheidet sich strategische operative Unterstützung von traditioneller Assistenz?',
+        'faq.a1': 'Im Gegensatz zur klassischen Assistenzfunktion, die primär entlastet, übernehme ich Verantwortung für operative Schlüsselbereiche – mit einem strategischen Blick auf Wachstum, Effizienz und Organisation.\n\nIch biete fundierte Unterstützung auf Führungsebene: von der Teamstrukturierung und Prozessoptimierung über Finanz- und Projektmanagement bis hin zu datenbasiertem Executive Support und technologischer Integration.\n\nFür CEOs und Führungsteams, die nicht nur operative Entlastung, sondern eine verlässliche Partnerin für nachhaltiges Wachstum suchen.',
         'faq.q2': 'Wie ist Ihr typischer Engagement-Zeitrahmen?',
-        'faq.a2': 'Standard-Onboarding erfolgt innerhalb von 5–7 Werktagen. Bei dringenden operativen Bedürfnissen biete ich beschleunigte Integration innerhalb von 48-72 Stunden.',
-        'faq.q3': 'Wie verhält sich fraktionales Engagement im Vergleich zur Vollzeitbeschäftigung?',
-        'faq.a3': 'Fraktionales Engagement bietet strategische operative Führung ohne Beschäftigungs-Overhead: Keine langfristigen vertraglichen Verpflichtungen, es sei denn gewünscht, Elimination von Rekrutierungs-, Onboarding- und Lohnkomplexitäten, erhöhte Flexibilität bei reduziertem operativem Risiko. Betrachten Sie es als Zugang zu senior operativer Expertise genau dann und dort, wo Ihr Unternehmen sie benötigt.',
-        'faq.q4': 'In welchen Sprachen arbeiten Sie professionell?',
-        'faq.a4': 'Ich biete fließende professionelle Dienstleistungen auf Englisch, Deutsch und Schwedisch — und passe Kommunikationsstil und kulturellen Ansatz basierend auf Ihrem Kundenportfolio und Ihrer internen Organisationskultur an.',
-        'faq.q5': 'Warum fraktionale operative Führung anstatt Vollzeitanstellung wählen?',
-        'faq.a5': 'Führungskräfte wählen fraktionales Engagement für strategische Flexibilität und sofortigen Impact. Sie erhalten Zugang zu senior operativer Expertise ohne Vollzeit-Vergütungsverpflichtungen, ausgedehnte Rekrutierungsprozesse oder langfristige vertragliche Verpflichtungen. Fraktionale Leistungserbringung bietet strategische, praxisnahe Unterstützung, skalierbare remote-native Operationen und eine eingebettete Partnerschaft, die sich direkt in Ihr Unternehmen integriert, anstatt als traditioneller externer Berater zu agieren.',
+        'faq.a2': 'Das Standard-Onboarding erfolgt in der Regel innerhalb von 5 bis 7 Werktagen.\nBei dringendem operativem Bedarf ist eine beschleunigte Integration innerhalb von 48 bis 72 Stunden möglich.',
+        'faq.q3': 'Fraktionales Engagement vs. Vollzeitbeschäftigung',
+        'faq.a3': 'Fraktionale operative Unterstützung bietet hochqualifizierte, strategisch ausgerichtete Entlastung – ohne den Aufwand einer Vollzeitanstellung:\n\nKeine langfristigen Vertragsbindungen, es sei denn gewünscht\n\nKeine klassischen Rekrutierungs- und Onboardingprozesse\n\nMaximale operative Flexibilität bei minimalem Risiko\n\nSie erhalten Zugang zu operativer Expertise auf Augenhöhe mit der Führungsebene – eingebettet, skalierbar und wirksam genau dort, wo strategischer und operativer Impact benötigt wird, ohne Vollzeit-Overhead.',
+        'faq.q4': 'In welchen Sprachen bieten Sie Ihre Leistungen an?',
+        'faq.a4': 'Ich arbeite fließend auf Englisch, Deutsch und Schwedisch – und passe Tonalität sowie kulturellen Kommunikationsstil gezielt an Ihr Kundenportfolio und Ihre interne Unternehmenskultur an.',
+        'faq.q5': 'Warum fraktionale operative Expertise eine Alternative zur Vollzeitstelle ist',
+        'faq.a5': 'Fraktionale operative Unterstützung bietet Unternehmen strategische Flexibilität und schnellen Mehrwert – ohne die Kosten und Verpflichtungen einer Vollzeitanstellung. Sie erhalten direkten Zugang zu senior Expertise, die sich bedarfsgerecht und skalierbar in Ihre Abläufe einfügt und operative Prozesse effizienter gestaltet.',
         
         // Services section
         'services.title': 'Strategische Support-Pakete',
-        'services.subtitle': 'Von operativem Fundament bis zur eingebetteten Führung — drei strategische Pakete zur Beschleunigung Ihrer Wachstumstrajektorie.',
+        'services.subtitle': 'Von stabilem operativem Fundament bis zur strategisch eingebetteten Umsetzungskompetenz – drei Pakete zur Beschleunigung Ihrer Wachstumsphase.',
         'services.popular': 'Beliebtestes Paket',
         
         'services.starter.name': 'Streamline Starter',
@@ -210,48 +210,48 @@ const translations = {
         'services.starter.feature5': 'Strategische Berichterstattung & Fortschrittsdokumentation',
         
         'services.growth.name': 'Optimize Growth',
-        'services.growth.period': '/Monat',
-        'services.growth.hours': 'Circa 30–35 Stunden/Monat',
-        'services.growth.ideal': 'Ideal für: Wachstumsunternehmen, die interne operative Systeme skalieren',
-        'services.growth.feature1': 'Alle Streamline Starter-Kompetenzen',
-        'services.growth.feature2': 'Systemdokumentation & Entwicklung von Standardarbeitsanweisungen',
-        'services.growth.feature3': 'KPI-Framework-Implementierung & Dashboard-Architektur',
-        'services.growth.feature4': 'Rekrutierungsstrategiekoordination & systematische Onboarding-Protokolle',
+        'services.growth.period': '/ Monat',
+        'services.growth.hours': 'Ca. 30–35 Stunden pro Monat',
+        'services.growth.ideal': 'Ideal für: Wachstumsunternehmen, die interne operative Systeme skalieren möchten.',
+        'services.growth.feature1': 'Alle Leistungen des Streamline Starter-Pakets',
+        'services.growth.feature2': 'Systemdokumentation & Entwicklung von Standardarbeitsanweisungen (SOPs)',
+        'services.growth.feature3': 'Implementierung von KPI-Frameworks & Dashboard-Architektur',
+        'services.growth.feature4': 'Koordination der Rekrutierungsstrategie & systematisches Onboarding',
         'services.growth.feature5': 'Monatliche strategische operative Planungssitzungen',
         
         'services.scale.name': 'Scale & Lead',
-        'services.scale.period': '/Monat',
-        'services.scale.hours': 'Circa 40–45 Stunden/Monat',
-        'services.scale.ideal': 'Ideal für: CEOs und Führungsteams, die umfassende operative Partnerschaft benötigen',
-        'services.scale.feature1': 'Komplettes Optimize Growth-Serviceportfolio',
+        'services.scale.period': '/ Monat',
+        'services.scale.hours': 'Ca. 40–45 Stunden pro Monat',
+        'services.scale.ideal': 'Ideal für: CEOs und Führungsteams, die eine umfassende operative Partnerschaft anstreben.',
+        'services.scale.feature1': 'Vollständiges Optimize Growth-Serviceportfolio',
         'services.scale.feature2': 'Umfassende Teamführung & Organisationsentwicklung',
         'services.scale.feature3': 'Finanzoperationsmanagement (Rechnungsstellung, Lohnüberwachung, Budgetkoordination)',
-        'services.scale.feature4': 'Strategisches Kundenbeziehungsmanagement & Projektportfolio-Oversight',
+        'services.scale.feature4': 'Strategisches Kundenbeziehungsmanagement & Projektportfolio-Überblick',
         'services.scale.feature5': 'Erweiterte Datenanalyse & Executive Decision Support',
-        'services.scale.feature6': 'Prozessautomatisierungsimplementierung & KI-Technologieintegration',
+        'services.scale.feature6': 'Implementierung von Prozessautomatisierung & KI-Technologieintegration',
         
         // Contact section
         'contact.title': 'Lassen Sie uns Ihre strategischen Ziele besprechen',
-        'contact.subtitle': 'Vereinbaren Sie eine kostenlose Erstberatung, um zu erkunden, wie ich Ihre nächste Wachstumsphase beschleunigen kann.',
+        'contact.subtitle': 'Vereinbaren Sie eine kostenlose Erstberatung und erfahren Sie, wie ich Ihre nächste Wachstumsphase gezielt beschleunigen kann.',
         'contact.info.title': 'Professioneller Kontakt',
-        'contact.info.timezone': 'CET Zeitzone • Remote-first Operationen',
-        'contact.book_call': 'Erstgespräch vereinbaren',
+        'contact.info.timezone': 'CET (Mitteleuropäische Zeit) • Remote-first Arbeitsweise',
+        'contact.book_call': 'Jetzt Erstgespräch vereinbaren',
         'contact.form.title': 'Professionelle Anfrage senden',
         'contact.form.name': 'Vollständiger Name *',
-        'contact.form.email': 'Geschäftliche E-Mail *',
-        'contact.form.company': 'Unternehmen/Organisation',
-        'contact.form.package': 'Service-Paket Interesse',
-        'contact.form.select': 'Bevorzugtes Paket auswählen...',
-        'contact.form.package1': 'Streamline Starter (€2.500/Monat)',
-        'contact.form.package2': 'Optimize Growth (€3.300/Monat)',
-        'contact.form.package3': 'Scale & Lead (€4.500/Monat)',
+        'contact.form.email': 'Geschäftliche E-Mail-Adresse *',
+        'contact.form.company': 'Unternehmen / Organisation',
+        'contact.form.package': 'Interesse an Service-Paket',
+        'contact.form.select': 'Bitte wählen Sie das für Sie relevante Leistungspaket aus…',
+        'contact.form.package1': 'Streamline Starter',
+        'contact.form.package2': 'Optimize Growth',
+        'contact.form.package3': 'Scale & Lead',
         'contact.form.consultation': 'Nur strategische Beratung',
-        'contact.form.message': 'Nachricht *',
-        'contact.form.message_placeholder': 'Bitte beschreiben Sie die operativen Herausforderungen und strategischen Ziele Ihrer Organisation...',
+        'contact.form.message': 'Ihre Nachricht *',
+        'contact.form.message_placeholder': 'Bitte schildern Sie kurz Ihre aktuellen operativen Herausforderungen und die strategischen Ziele, bei denen Sie Unterstützung suchen.',
         'contact.form.submit': 'Professionelle Anfrage absenden',
         
         // Footer
-        'footer.tagline': 'Remote-first operative Exzellenz für ambitionierte Gründer',
+        'footer.tagline': 'Remote-first. Operative Exzellenz für ambitionierte Gründer:innen.',
         'footer.rights': 'Alle Rechte vorbehalten.',
         'footer.privacy': 'Datenschutz'
     }
@@ -280,6 +280,16 @@ function switchLanguage(lang) {
                 element.textContent = translations[lang][key];
             }
         });
+        
+        // Update privacy policy link based on language
+        const privacyLink = document.querySelector('a[href*="privacy"]');
+        if (privacyLink) {
+            if (lang === 'de') {
+                privacyLink.href = 'datenschutz.html';
+            } else {
+                privacyLink.href = 'privacy-policy.html';
+            }
+        }
         
         // Update placeholders
         document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
