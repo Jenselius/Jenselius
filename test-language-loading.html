@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Language Test - Jenselius Strategy & Ops</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-white">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-2xl font-bold mb-4">Static Language Loading Test</h1>
+        
+        <!-- Language Switch -->
+        <div class="mb-6">
+            <button class="language-btn px-4 py-2 bg-blue-600 text-white rounded mr-2" onclick="switchLanguage('en')">EN</button>
+            <button class="language-btn px-4 py-2 bg-gray-600 text-white rounded" onclick="switchLanguage('de')">DE</button>
+        </div>
+        
+        <!-- Test Content -->
+        <div class="space-y-4">
+            <h2 class="text-xl font-semibold" data-translate="hero.title">Loading...</h2>
+            <p data-translate="hero.subtitle">Loading subtitle...</p>
+            <h3 data-translate="swiss_nordic.title">Loading section title...</h3>
+            <p data-translate="strengths.title">Loading strengths...</p>
+        </div>
+        
+        <div id="status" class="mt-6 p-4 bg-gray-800 rounded">
+            <p>Status: <span id="load-status">Initializing...</span></p>
+        </div>
+    </div>
+    
+    <script src="js/main-static.js"></script>
+    <script>
+        // Add status updates
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('load-status').textContent = 'Loading language files...';
+            
+            // Check if translations loaded after a delay
+            setTimeout(() => {
+                if (Object.keys(translations).length > 0) {
+                    document.getElementById('load-status').textContent = 'Language files loaded successfully!';
+                } else {
+                    document.getElementById('load-status').textContent = 'Error: Language files failed to load.';
+                }
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
