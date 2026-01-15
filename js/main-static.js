@@ -44,7 +44,7 @@ function setLanguage(lang) {
     // Update language buttons
     document.querySelectorAll('.language-btn').forEach(btn => {
         btn.classList.remove('active');
-        if (btn.textContent.trim().toLowerCase() === lang) {
+        if (btn.dataset.lang === lang) {
             btn.classList.add('active');
         }
     });
@@ -56,6 +56,14 @@ function setLanguage(lang) {
             element.textContent = translations[lang][key];
         }
     });
+    
+    // Update placeholder text
+    document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+        const key = element.getAttribute('data-translate-placeholder');
+        if (translations[lang] && translations[lang][key]) {
+            element.placeholder = translations[lang][key];
+        }
+    });
 }
 
 // Language switching functionality
@@ -63,49 +71,43 @@ function switchLanguage(lang) {
     setLanguage(lang);
 }
 
-// Email form functionality
-function toggleEmailForm() {
-    const form = document.getElementById('email-form');
-    const button = document.querySelector('[onclick="toggleEmailForm()"]');
+// ====== EMAIL FORM FUNCTIONALITY (NEW!) ======
+function handleResourcesForm(event) {
+    event.preventDefault(); // Verhindert Standard-Formular-Submit
     
-    if (form.style.display === 'none' || form.style.display === '') {
-        form.style.display = 'block';
-        const buttonText = currentLanguage === 'de' ? 'Formular schließen' : 'Close Form';
-        button.textContent = buttonText;
-    } else {
-        form.style.display = 'none';
-        const buttonText = currentLanguage === 'de' ? 'E-Mail hinterlegen' : 'Access Strategic Resources';
-        button.textContent = buttonText;
-    }
-}
-
-function submitEmailForm() {
-    const email = document.getElementById('email-input').value;
-    const messageDiv = document.getElementById('form-message');
+    const form = document.getElementById('resourcesForm');
+    const emailInput = form.querySelector('input[type="email"]');
+    const thankYouSection = document.getElementById('thankYouSection');
     
-    if (!email || !email.includes('@')) {
-        const errorMsg = currentLanguage === 'de' ? 
+    // Validierung
+    if (!emailInput || !emailInput.value || !emailInput.value.includes('@')) {
+        alert(currentLanguage === 'de' ? 
             'Bitte geben Sie eine gültige E-Mail-Adresse ein.' : 
-            'Please enter a valid email address.';
-        messageDiv.textContent = errorMsg;
-        messageDiv.className = 'mt-2 text-red-400 text-sm';
+            'Please enter a valid email address.');
         return;
     }
     
-    // Simulate form submission
-    const successMsg = currentLanguage === 'de' ? 
-        'Vielen Dank! Sie erhalten in Kürze Zugang zu den Ressourcen.' : 
-        'Thank you! You will receive access to the resources shortly.';
-    messageDiv.textContent = successMsg;
-    messageDiv.className = 'mt-2 text-green-400 text-sm';
+    // Email-Adresse speichern (optional - für Analytics/Tracking)
+    console.log('Email submitted:', emailInput.value);
     
-    // Hide form after success
-    setTimeout(() => {
-        document.getElementById('email-form').style.display = 'none';
-        const button = document.querySelector('[onclick="toggleEmailForm()"]');
-        const buttonText = currentLanguage === 'de' ? 'E-Mail hinterlegen' : 'Access Strategic Resources';
-        button.textContent = buttonText;
-    }, 2000);
+    // Formular ausblenden
+    form.style.display = 'none';
+    
+    // Thank-You-Sektion anzeigen
+    if (thankYouSection) {
+        thankYouSection.classList.remove('hidden');
+        
+        // Sanft zur Thank-You-Sektion scrollen
+        thankYouSection.scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'center' 
+        });
+    }
+}
+
+// Calendly integration
+function openCalendly() {
+    window.open('https://calendly.com/jenselius-strategy-ops/30min', '_blank');
 }
 
 // Initialize when DOM is loaded
@@ -116,19 +118,20 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set up language button event listeners
     document.querySelectorAll('.language-btn').forEach(btn => {
         btn.addEventListener('click', function() {
-            const lang = this.textContent.trim().toLowerCase();
-            switchLanguage(lang);
+            const lang = this.dataset.lang;
+            if (lang) {
+                switchLanguage(lang);
+            }
         });
     });
+    
+    // Set up email form submission handler
+    const resourcesForm = document.getElementById('resourcesForm');
+    if (resourcesForm) {
+        resourcesForm.addEventListener('submit', handleResourcesForm);
+    }
 });
-
-// Calendly integration
-function openCalendly() {
-    window.open('https://calendly.com/jenselius-strategy-ops/30min', '_blank');
-}
 
 // Make functions globally available
 window.switchLanguage = switchLanguage;
-window.toggleEmailForm = toggleEmailForm;
-window.submitEmailForm = submitEmailForm;
 window.openCalendly = openCalendly;
